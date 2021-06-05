@@ -1,0 +1,36 @@
+#TEAM {
+  margin: 66px;
+  text-align: center;
+  padding: 70px 0px;
+}
+
+#TEAM .row {
+  margin-top: 40px;
+  grid-row-gap: 60px;
+  column-gap: 60px;
+}
+
+#TEAM .col {
+  background-color: #282d32;
+  padding: 20px 30px;
+  min-height: 600px;
+}
+
+@media (max-width: 476px) {
+  #TEAM .col {
+    min-height: 0px;
+  }
+}
+
+#TEAM img {
+  width: 250px;
+  height: 333px;
+}
+
+@media (max-width: 476px) {
+  #TEAM img {
+    width: 150px;
+    height: 200px;
+  }
+}
+
