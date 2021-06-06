@@ -58,6 +58,7 @@ body {
 	max-width: 600px;
 	max-height: 600px;
 	text-align: center;
+	z-index: 10;
 }
 
 .text-warning {
@@ -78,8 +79,24 @@ body {
 	z-index: -10;
 }
 
+#Promo .film {
+	width: calc(100vw - 17px);
+	height: 600px;
+	position: absolute;
+	top: 66px;
+	object-fit: fill;
+	z-index: 0;
+
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+}
+
 @media (max-width: 768px) {
 	#Promo video {
+		width: 100vw;
+		height: 500px;
+	}
+
+	#Promo .film {
 		width: 100vw;
 		height: 500px;
 	}
