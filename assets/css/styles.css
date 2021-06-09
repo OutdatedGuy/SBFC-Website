@@ -213,7 +213,7 @@ main .row {
 }
 
 @media (max-width: 768px) {
-	#GUIDANCE iframe {
+	iframe {
 		width: 90vw;
 		height: calc(90vw / 1.77777);
 	}
@@ -243,4 +243,9 @@ main .row {
 
 #Founder a {
 	margin-top: 20px;
+}
+
+#CLIENTS h2,
+#CLIENTS iframe {
+	margin-bottom: 30px;
 }
