@@ -249,3 +249,7 @@ main .row {
 #CLIENTS iframe {
 	margin-bottom: 30px;
 }
+
+#CLIENTS .row .col-12 {
+	margin-bottom: 20px;
+}
