@@ -245,9 +245,12 @@ main .row {
 	margin-top: 20px;
 }
 
-#CLIENTS h2,
-#CLIENTS iframe {
+#CLIENTS h2 {
 	margin-bottom: 30px;
+}
+
+#CLIENTS iframe {
+    margin-bottom: 60px;
 }
 
 #CLIENTS .row .col-12 {
