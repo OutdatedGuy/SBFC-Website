@@ -16,12 +16,14 @@ body {
 #brand {
 	position: absolute;
 	top: 33px;
+	font-weight: bold;
 	transform: translate(0, -50%);
 }
 
-@media (max-width: 576px) {
+@media (max-width: 767px) {
 	#brand {
-		display: none;
+		left: 50%;
+		transform: translate(-50%, -50%);
 	}
 }
 
@@ -250,7 +252,7 @@ main .row {
 }
 
 #CLIENTS iframe {
-    margin-bottom: 60px;
+	margin-bottom: 60px;
 }
 
 #CLIENTS .row .col-12 {
