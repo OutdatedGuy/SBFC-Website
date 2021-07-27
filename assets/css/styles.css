@@ -230,8 +230,15 @@ main .row {
 }
 
 #Founder img {
-  width: 100px;
-  height: 150px;
+  width: 350px;
+  height: 350px;
+}
+
+@media only screen and (max-width: 768px) {
+	#Founder img {
+		width: 200px;
+		height: 200px;
+	}
 }
 
 #Founder p {
